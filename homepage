@@ -1,0 +1,127 @@
+<head>
+<link href="/normalize.css" rel="stylesheet">
+  <title>MintWebCX</title>
+
+<style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 1000px;
+  background: #232323;
+  background-image: url(MintLogo3-01.png); width: 100%; height: 100%;
+}
+
+.header {
+	height: 150px;
+	text-align: center;
+	margin: 10px 10 10 10;
+	background-size: contain;
+	background: rgba(54, 25, 25, .5);
+}
+
+.container { width: 100% }
+
+.column-left{ float: left; max-width: 33%; background: rgba(54, 25, 25, .5); border-radius: 10px; margin: 2px; }
+.column-right{ float: right; max-width: 33%; background: rgba(54, 25, 25, .5); border-radius: 10px; margin: 2px; }
+.column-center{ display: inline-center; max-width: 33%; background: rgba(54, 25, 25, .5); border-radius: 10px; margin: 2px; }
+
+
+h1 {
+	font-family: Garamond;
+	text-align: center;
+	font-size: 75px;
+	color: #FFFFFF;
+	margin: 10px 0 0 0;
+}
+h2 {
+	text-align: center;
+	color: #FFFFFF;
+	margin: 10px 10px 10px 10px;
+	font-family: garamond;
+}
+
+h3 {
+	text-align: center;
+	color: #FFF;
+	font-size: 10px;
+	font-family: "Lucida Console", Monaco, monospace
+	
+}
+
+button {
+	background-color: #CCCCCC; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	align: center;
+	text-align: center;
+	display: inline-block;
+	font-size: auto;
+	font-size: auto;
+	margin: 5px;
+}
+
+</style>
+</head>
+  
+
+<body>
+<div class= "header"> 
+<h1>MintWebCX</h1>
+<h2>U.S. Mint Employee Access Portal</h2>
+</div>
+
+<div class="container">
+  <div class="column-center">
+   <h3><u>Engraving</u></h3> 
+<button id="button">
+<h3> Graphics Render Farm Controls</h3>
+</button> <br>
+
+<button id="button">
+<h3> Windows Vista Cntl Panel Mod</h3>
+</button><br>
+
+<button id="button">
+<h3>Laser Calibration Settings</h3>
+</button>
+   </div>
+   
+<div class="column-left">
+   <h3><u>Press Floor Production</u></h3>
+   
+<button id="button">
+<h3> Send to Print Floor Run </h3>
+</button> <br>
+
+<button id="button">
+<h3> Batch Order Ups</h3>
+</button><br>
+
+<button id="button">
+<h3> Bannerman-Robb Native Settings</h3>
+</button>
+</h3>
+   </div>
+   
+<div class="column-right">
+   <h3><u>Press Floor Production</u></h3>
+   
+<button id="button">
+<h3> Design Elements Cloud </h3>
+</button> <br>
+
+<button id="button">
+<h3> State Parks Submission Guidlines</h3>
+</button><br>
+
+<button id="button">
+<h3>  Quarter Visual Guide Deck</h3>
+</button>
+   </div>
+
+</div>
+
+</body>
+
+
