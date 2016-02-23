@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MintWeb Surveillance Hub</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+
+    <style>
+     body {
+       font-family: helvetica, sans-serif;
+       margin: 0 auto;
+       background: black;
+     }
+
+     #container {
+       display: flex;
+       padding: 20px;
+     }
+
+     #container > #controls {
+       width: 25%;
+       margin-right: 20px;
+       color: #ccc;
+     }
+
+     #container > #controls input {
+       color: black;
+      }
+
+     #container > #video {
+       width: 75%;
+     }
+
+     #video img {
+       max-width: 100%;
+     }
+
+    </style>
+
+    <script src="js/jquery.js" ></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+     $(function main() {
+       $("#camera").autocomplete({
+         source: [
+           "Camera 1",
+           "Camera 2",
+           "Camera 3",
+           "Camera 4",
+           "Camera 5",
+           "Camera 6"
+         ]
+       });
+       $("#date").datepicker();
+     });
+    </script>
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div id="controls">
+        <p><strong>Camera</strong></p>
+        <input type="text" name="camera" id="camera">
+        <p><strong>Date</strong></p>
+        <input type="text" name="date" id="date">
+      </div>
+      <div id="video">
+        <img src="images/video.jpg">
+      </div>
+    </div>
+
+  </body>
+
+</html>
