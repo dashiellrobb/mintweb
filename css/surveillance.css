@@ -1,8 +1,9 @@
 body {
     font-family: helvetica, sans-serif;
     margin: 0 auto;
+    background-image: url("../images/MintLogo-01.png");
     background: black;
-    background-image: url("images/MintLogo-01.png");
+ 
 }
 
 #container {
@@ -26,5 +27,11 @@ body {
 
 #video img {
     max-width: 100%;
+}
+
+#container > #button {
+    width: 25%;
+    margin-right: 20px;
+    
 }
 
