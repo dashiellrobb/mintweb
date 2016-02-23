@@ -7,12 +7,19 @@
 
     <style>
      body {
-       font-family: helvetica, sans-serif;
+       font-family: lucida, sans-serif;
        margin: 0 auto;
        background: black;
-       background-image: mintlogo-01.png ;
+       background-image: url ("images/MintLogo-01.png");
+       background-size: cover;
      }
-
+     .header {
+       height: 100px;
+       text-align: left;
+       margin: 10px 10 10 10;
+       background-size: contain;
+       background: rgba(54, 25, 25, .5);
+     }
      #container {
        display: flex;
        padding: 20px;
@@ -44,12 +51,12 @@
      $(function main() {
        $("#camera").autocomplete({
          source: [
-           "Camera 1",
-           "Camera 2",
-           "Camera 3",
-           "Camera 4",
-           "Camera 5",
-           "Camera 6"
+           "Camera A1",
+           "Camera A2",
+           "Camera A3",
+           "Camera A4",
+           "Camera A5",
+           "Camera A6"
          ]
        });
        $("#date").datepicker();
@@ -58,6 +65,9 @@
   </head>
 
   <body>
+<div class= "header">
+  <img= src= "image/logo_text_blue.jpg"  style="max-width:50px;">
+</div>
 
     <div id="container">
       <div id="controls">
