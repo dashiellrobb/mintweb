@@ -1,0 +1,29 @@
+body {
+    font-family: helvetica, sans-serif;
+    margin: 0 auto;
+    background: black;
+}
+
+#container {
+    display: flex;
+    padding: 20px;
+}
+
+#container > #controls {
+    width: 25%;
+    margin-right: 20px;
+    color: #ccc;
+}
+
+#container > #controls input {
+    color: black;
+}
+
+#container > #video {
+    width: 75%;
+}
+
+#video img {
+    max-width: 100%;
+}
+
