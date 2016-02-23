@@ -21,12 +21,20 @@
        background: rgba(54, 25, 25, .5);
      }
 
-     .container { width: 100% }
-
-     .column-left{ float: left; max-width: 33%; background: rgba(54, 25, 25, .5); border-radius: 10px; margin: 2px; }
-     .column-right{ float: right; max-width: 33%; background: rgba(54, 25, 25, .5); border-radius: 10px; margin: 2px; }
-     .column-center{ display: inline-center; max-width: 33%; background: rgba(54, 25, 25, .5); border-radius: 10px; margin: 2px; }
-
+     .container {
+       display: flex;
+       padding: 20px;
+     }
+     .container > div {
+       width: 33%;
+       padding: 10px;
+       margin-right: 20px;
+       background: rgba(54, 25, 25, .5);
+       border-radius: 10px;
+     }
+     .container > div:last-child {
+       margin-right: 0px;
+     }
 
      h1 {
        font-family: Garamond;
@@ -72,8 +80,9 @@
     </div>
 
     <div class="container">
-      <div class="column-center">
+      <div>
         <h3><u>Engraving</u></h3> 
+
         <button id="button">
           <h3> Graphics Render Farm Controls</h3>
         </button> <br>
@@ -86,10 +95,10 @@
           <h3>Laser Calibration Settings</h3>
         </button>
       </div>
-      
-      <div class="column-left">
+
+      <div>
         <h3><u>Press Floor Production</u></h3>
-        
+
         <button id="button">
           <h3> Send to Print Floor Run </h3>
         </button> <br>
@@ -103,10 +112,10 @@
         </button>
         </h3>
       </div>
-      
-      <div class="column-right">
+
+      <div>
         <h3><u>Press Floor Production</u></h3>
-        
+
         <button id="button">
           <h3> Design Elements Cloud </h3>
         </button> <br>
