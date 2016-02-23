@@ -22,7 +22,7 @@ body {
     width: 33%;
     padding: 10px;
     margin-right: 20px;
-    background: rgba(54, 25, 25, .5);
+    background: rgba(76, 76, 76, .5);
     border-radius: 10px;
 }
 .container > div:last-child {
@@ -45,7 +45,7 @@ h2 {
 
 h3 {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 10px;
     font-family: "Lucida Console", Monaco, monospace
 }
