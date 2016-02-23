@@ -22,7 +22,7 @@ body {
     width: 33%;
     padding: 10px;
     margin-right: 20px;
-    background: rgba(76, 76, 76, .5);
+    background: rgba(54, 25, 25, .5);
     border-radius: 10px;
 }
 .container > div:last-child {
@@ -51,7 +51,7 @@ h3 {
 }
 
 button {
-    background-color: #CCCCCC; /* Green */
+    background-color: #424672; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
